@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora de Gasto com Combustível</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Calculadora de Gasto com Combustível</h1>
+	<form id="calc">
+		<label for="km_por_litro">Km/L que o carro faz:</label>
+		<input type="text" id="km_por_litro" name="km_por_litro" required>
+		
+		<label for="preco_combustivel">Preço do combustível:</label>
+		<input type="text" id="preco_combustivel" name="preco_combustivel" size="80"  required>
+		
+		<label for="km_rodado">Quilômetros rodados por dia:</label>
+		<input type="text" id="km_rodado" name="km_rodado" required>
+		
+		<label for="dias_por_mes">Dias do mês:</label>
+		<input type="number" id="dias_por_mes" name="dias_por_mes" required>
+		
+		<button type="submit">Calcular</button>
+	</form>
+	
+	<div id="resultado"></div>
+	
+	<script src="script.js"></script>
+    <footer>
+        <p>&copy; 2023 Thiago Vale.</p>
+      </footer>
+</body>
+</html>
