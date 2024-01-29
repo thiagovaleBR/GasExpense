@@ -1,8 +1,3 @@
-# Projetim besta mas util
-
 ## GasExpense
 * Feito pra calcular despesas de gasolina com base na Kilometragem rodada, Consumo do carro, dias da semana e valor da gasolina.
-* Timed to finish: 22min.
-* testando o uso do github.
-* Testando uso de branches.
-* teste develop.
+* Fiz esse projeto para auxiliar minha esposa em uma matéria
